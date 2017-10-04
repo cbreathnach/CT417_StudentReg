@@ -4,7 +4,7 @@
 
   <groupId>assign1</groupId>
   <artifactId>studentReg</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
   <name>studentReg</name>
@@ -33,10 +33,18 @@
   </dependencies>
   
   <distributionManagement>  
-    		<repository>
+  
+    		<!-- <repository>
         		<id>dropbox-mvn-repo</id>
         		<url>file:///Users/cathalbreathnach/Dropbox/Maven_Repo</url>
+    		</repository> -->
+    		
+    		<repository>
+    			<id>bintray-cbreathnach-student_reg</id>
+    			<name>cbreathnach-student_reg</name>
+    			<url>https://api.bintray.com/maven/cbreathnach/student_reg/studentReg/;publish=1</url>
     		</repository>
+    		
 	</distributionManagement>  
   
 </project>
