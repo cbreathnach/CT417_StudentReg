@@ -39,11 +39,11 @@
         		<url>file:///Users/cathalbreathnach/Dropbox/Maven_Repo</url>
     		</repository> -->
     		
-    		<repository>
+    		<!-- <repository>
     			<id>bintray-cbreathnach-student_reg</id>
     			<name>cbreathnach-student_reg</name>
     			<url>https://api.bintray.com/maven/cbreathnach/student_reg/studentReg/;publish=1</url>
-    		</repository>
+    		</repository> -->
     		
 	</distributionManagement>  
   
